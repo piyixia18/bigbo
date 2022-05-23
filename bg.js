@@ -2,7 +2,7 @@
     function initBgVideo() {
         let random = window.getRandom(['bg', "bg", "bg"]);
         var video = document.getElementById('video_source');
-        let src = + random + ".mp4";
+        let src = "" + random + ".mp4";
         video.src = src;
         document.getElementById('video_bg').load();
     }
